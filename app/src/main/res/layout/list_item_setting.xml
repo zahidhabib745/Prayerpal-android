@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:thumbTint="@color/black"
+        android:id="@+id/toggle_button"
+        android:paddingStart="8dp"
+        android:paddingTop="3dp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+
+    <!--
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="option"
+        android:thumbTint="@color/black"
+        />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:thumb="@drawable/custom_toggle_thumb"
+        app:track="@drawable/custom_toggle_track"
+        android:id="@+id/toggle_button"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_title"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="10sp"
+            android:paddingLeft="10dp"
+            android:paddingTop ="5dp"
+            android:layout_marginBottom="5dp"/>
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch_new"
+        android:checked="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:textOn="On"
+        android:textOff="Off"
+        app:showText="true"
+        android:layout_gravity="end"
+        android:thumb="@drawable/custom_toggle_thumb"
+        app:track="@drawable/custom_toggle_track"
+        /> -->
+
+</LinearLayout>

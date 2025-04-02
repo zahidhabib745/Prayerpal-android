@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/prayer_card_view"
+    android:layout_width="315dp"
+    android:layout_height="63dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="20dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prayer_relative_layout">
+
+        <TextView
+            android:id="@+id/shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="18dp"
+            android:textSize="21sp"
+            android:textColor="@color/black"
+            style="@android:style/TextAppearance.Medium"
+            />
+
+        <TextView
+            android:id="@+id/prayer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            style="@android:style/TextAppearance.Medium"
+            />
+
+        <TextView
+            android:id="@+id/prayer_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="18dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            style="@android:style/TextAppearance.Medium"
+            />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- meta data -->
+    <string name="app_name">prayerpal</string>
+    <string name="API_key">AIzaSyCOJ3QaSRsY40LLl-z5BfJguNb3hwe88Xs</string>
+
+    <!-- prayer strings -->
+    <string name="begins">begins</string>
+    <string name="fajr">Fajr</string>
+    <string name="dhur">Dhur</string>
+    <string name="asr">Asr</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isha">Isha</string>
+    <string name="prayer_times">Prayer times</string>
+    <string name="time_remaining_till">Time remaining till </string>
+    <string name="todays_date_format">dd-MM-yyyy</string>
+    <string name="todays_date_format_with_24_Hour">dd-MM-yyyy HH:mm</string>
+
+    <!-- Navigation title strings-->
+    <string name="prayer_times_nav_title">Prayer times</string>
+    <string name="mosque_near_me_nav_title">Mosque near me</string>
+
+    <!-- Setting title strings -->
+    <string name="prayer_group_setting_item_title">Prayer</string>
+    <string name="notification_group_setting_item">Notifications</string>
+    <string name="adhaan_setting_item">The adhaan will alert you when prayer time has arrived</string>
+    <string name="amend_hour_setting_item">Changing this will amend the prayer times to 12 hour time</string>
+    <string name="amend_madhab_setting_item">Amend the madhab will alter the Asr prayer time followed</string>
+    <string name="notification_setting_item">This will alert you with a notification when prayer arrives</string>
+
+    <!-- map strings -->
+    <string name="origin_lat">originLat</string>
+    <string name="origin_lng">originLng</string>
+    <string name="mosque_lat">mosqueLat</string>
+    <string name="mosque_lng">mosqueLng</string>
+    <string name="mosque_name">mosqueName</string>
+    <string name="mosque_address">mosqueAddress</string>
+    <string name="mosque_id">mosqueId</string>
+    <string name="distance_in_meters">distanceInMeters</string>
+    <string name="current_location_marker">current location</string>
+    <string name="mosque_marker">mosque</string>
+    <string name="latitude">latitude</string>
+    <string name="longitude">longitude</string>
+</resources>
