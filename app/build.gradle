@@ -3,6 +3,16 @@ plugins {
     id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
 }
 
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+
+if (localPropertiesFile.exists()){
+    localPropertiesFile.withReader('UTF-8'){ reader ->
+        localProperties.load(reader)
+    }
+}
+
+
 android {
     namespace 'com.project.prayerpal'
     compileSdk 33
@@ -13,6 +23,12 @@ android {
         targetSdk 33
         versionCode 1
         versionName "1.0"
+
+        manifestPlaceholders = [
+                MAPS_API_KEY: localProperties.getProperty('MAPS_API_KEY', '')
+        ]
+
+        buildConfigField "String", "MAPS_API_KEY", "\"${localProperties.getProperty('MAPS_API_KEY', '')}\""
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

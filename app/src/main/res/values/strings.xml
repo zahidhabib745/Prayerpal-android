@@ -2,7 +2,6 @@
 
     <!-- meta data -->
     <string name="app_name">prayerpal</string>
-    <string name="API_key">AIzaSyCOJ3QaSRsY40LLl-z5BfJguNb3hwe88Xs</string>
 
     <!-- prayer strings -->
     <string name="begins">begins</string>

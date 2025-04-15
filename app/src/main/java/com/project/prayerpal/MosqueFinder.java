@@ -37,6 +37,7 @@ public class MosqueFinder {
     double originLat;
     double originLng;
     Resources resources;
+    String apiKey = BuildConfig.MAPS_API_KEY;
 
     public MosqueFinder(Context context, Double originLat, Double originLng){
 
@@ -49,9 +50,10 @@ public class MosqueFinder {
 
     public void initPlaces(Context context){
 
-        Places.initialize(context.getApplicationContext(), resources.getString(R.string.API_key));
+        Places.initialize(context.getApplicationContext(), apiKey);
         placesClient = Places.createClient(context);
     }
+
 
     public Task<Boolean> fetchPlace(){
 
